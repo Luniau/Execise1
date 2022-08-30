@@ -6,10 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fortnite</title>
   </head>
-  <style></style>
+  <style>
+    body {
+      background-color: #b5179e;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px 60px;
+      background-color: #560bad;
+    }
+    h1{
+      text-align: center;
+      color:#53B3EA;
+      border: 2px solid #012778;
+      font-size: 60px;
+      border-radius: 5px;
+      
+    }
+
+    img{
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      border-radius: 10px;
+
+    }
+
+    p{
+      line-height: 1.5;
+      font-size: 15px;
+margin: 20px 0 10px;
+    }
+
+    .learn-more{
+      display: block ;
+      margin-top: 15px;
+      font-size: 12px ;
+      text-decoration: none;
+      color: red;
+    }
+    .learn-more:hover{
+text-decoration: underline;
+    }
+
+    button{
+      display: block;
+      margin: 20px auto;
+      background: #53B3EA;
+      font-size: 18px;
+      padding: 15px 20px;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+  
+    }
+
+    button:hover {
+      opacity: 0.9;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 11px;
+      color: blue;
+    }
+
+  </style>
   <body>
+    <div class="container">
     <h1>Fortnite</h1>
-    <img src="./image/fortnite.jpg" alt="Fortnite"/>
+    <img src="../img/fortnite.jpg" alt="Fortnite"/ width="500">
     <p>
       Fortnite is an online video game developed by Epic Games and released in
       2017. It is available in three distinct game mode versions that otherwise
@@ -20,12 +87,13 @@
       zombie-like creatures and defend objects with traps and fortifications
       they can build; and Fortnite Creative, in which players are given complete
       freedom to create worlds and battle arenas.
-    </br>
-    <a href="https://en.wikipedia.org/wiki/Fortnite" target="_blank">Learn more on wikipedia</a> 
+   
+   
     </p>
+     <a href="https://en.wikipedia.org/wiki/Fortnite" target="_blank" class="learn-more">Learn more on wikipedia</a> 
     <button>Play Fortnite</button>
     <footer>This page was created by <a href="https://www.carvalhoandrade.com/" target="_blank">Luciana Carvalho</a>
     </footer>
-
+</div>
   </body>
 </html>
