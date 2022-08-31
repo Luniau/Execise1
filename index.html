@@ -95,5 +95,15 @@ text-decoration: underline;
     <footer>This page was created by <a href="https://www.carvalhoandrade.com/" target="_blank">Luciana Carvalho</a>
     </footer>
 </div>
+<script>
+  function play(){
+    let name = prompt ("what is your name?");
+    let age = prompt ("How old are you?");
+     if (age >= 16){ alert ("Great, you can play!🎮")} 
+     else { alert(" Sorry, you can not play.😪 But we will wait for you in the future! 🙂👋");}
+  }
+  let button = document.querySelector("button");
+  button.addEventListener("click", play);
+</script>
   </body>
 </html>
